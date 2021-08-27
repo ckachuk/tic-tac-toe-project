@@ -1,0 +1,135 @@
+:root{
+    --firstColor: #120907;
+    --secondColor:#12293e;
+    --thirdColor:#146383;
+    --fourthColor:#c4b18f;
+    --fifthColor: #f5deb3;
+}
+
+body{
+    background-color: var(--firstColor);
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    margin: 15% 10px 0px 0px;
+    background-color: var(--fifthColor);
+    font-family: 'Press Start 2P', cursive;
+    color: var(--firstColor);
+    border: none;
+    border-radius: 5px;
+}
+
+#restart{
+    margin: 10% 0px 50px 0px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    border: var(--firstColor) solid;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: var(--secondColor);
+    color: wheat;
+}
+
+
+
+.onePlayerSelectionXO{
+    background-color: var(--fourthColor);
+}
+
+.onePlayerSelectionXO:hover{
+    background-color: var(--secondColor);
+    color: wheat;
+}
+
+.twoPlayerSelectionXO{
+    background-color: var(--fourthColor);
+}
+
+.twoPlayerSelectionXO:hover{
+    background-color: var(--secondColor);
+    color: wheat;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    order: 2;
+}
+
+
+.playerOne{
+    order: 1;
+    color: var(--fifthColor);
+    margin: 90px 200px 40px 40px; 
+}
+
+.playerTwo{
+    order: 3;
+    color: var(--fifthColor);
+    margin: 90px 40px 40px 200px;
+}
+
+.winningCombination{
+    color: green;
+    font-size: 22px;
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    border: var(--firstColor) solid;
+    border-radius: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .gameboard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 300px;
+        order: 2;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        border: var(--firstColor) solid;
+        border-radius: 0px;
+    }
+    .winningCombination{
+        color: green;
+        font-size: 22px;
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        border: var(--firstColor) solid;
+        border-radius: 0px;
+    }
+
+  }

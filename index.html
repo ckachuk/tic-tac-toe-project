@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <title>Tic tac toe</title>
+</head>
+<body>
+   <header></header>
+    <div class="buttons">
+        <button id="onePlayer">1 PLAYER</button>
+        <button id="twoPlayer">2 PLAYER</button>
+        <button id="X" class="onePlayerSelectionXO">X</button>
+        <button id="O" class="onePlayerSelectionXO">O</button>
+        <button id="X" class="twoPlayerSelectionXO">X</button>
+        <button id="O" class="twoPlayerSelectionXO">O</button>
+        <button id="restart">RESTART</button>
+    </div>
+    <div class="conteiner">
+        <div class="playerOne">
+            <h1>PLAYER ONE</h1>
+            <h1 id='playerOneLabel'>0</h1>
+        </div>
+        <div class="gameboard">
+            <button id="1" class="box"></button>
+            <button id="2" class="box"></button>
+            <button id="3" class="box"></button>
+            <button id="4" class="box"></button>
+            <button id="5" class="box"></button>
+            <button id="6" class="box"></button>
+            <button id="7" class="box"></button>
+            <button id="8" class="box"></button>
+            <button id="9" class="box"></button>
+        </div>
+        <div class="playerTwo">
+            <h1>PLAYER TWO</h1>
+            <h1 id='playerTwoLabel'>0</h1>
+        </div>
+       
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
