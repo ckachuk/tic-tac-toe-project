@@ -12,4 +12,5 @@ A simple Tic-Tac-Toe game. I used this project to practice simple algorithms and
 Features:
 
 Human or AI players (AI is random)
+
 Checks for a winner or if there is a tie
